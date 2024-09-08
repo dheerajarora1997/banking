@@ -1,0 +1,85 @@
+body {
+  font-weight: medium;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.bg-primary,
+.btn-primary,
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: #eb8000 !important;
+}
+.text-primary {
+  color: #eb8000 !important;
+}
+.border-primary,
+.btn {
+  border-color: #eb8000 !important;
+}
+.btn-outline-primary {
+  border-color: #eb8000 !important;
+}
+
+.gradient-section {
+  position: relative;
+  z-index: 1;
+  min-height: 350px;
+}
+.gradient-section:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: rgb(14, 54, 79);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 54, 79, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.top-menu {
+}
+.top-menu .top-left-menu {
+}
+
+.menubar {
+}
+
+.logo-section {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 0 100px 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mega-menu {
+}
+
+marquee ul li {
+  position: relative;
+  padding: 5px 10px;
+  color: #000;
+}
+
+marquee ul li:before {
+  content: "⬤";
+  font-size: 10px;
+  position: absolute;
+  left: -5px;
+  top: 8px;
+}
