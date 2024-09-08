@@ -49,6 +49,9 @@ ul li {
   );
 }
 
+.logo-section img {
+  width: 80px;
+}
 .top-menu {
 }
 .top-menu .top-left-menu {
